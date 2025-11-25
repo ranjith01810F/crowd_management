@@ -1,0 +1,27 @@
+# FastAPI and WebSocket
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+websockets==12.0
+python-multipart==0.0.6
+
+# Computer Vision
+opencv-python==4.10.0.84
+numpy==1.26.4
+
+# Person Detection (YOLOv8)
+ultralytics==8.1.0
+
+# SAM (Segment Anything Model)
+# Install with: pip install git+https://github.com/facebookresearch/segment-anything.git
+# segment-anything  # Uncomment after installing SAM
+
+# PyTorch (required for SAM)
+# Install appropriate version from https://pytorch.org/
+# torch>=2.0.0
+# torchvision>=0.15.0
+
+# Utilities
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
