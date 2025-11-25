@@ -46,7 +46,6 @@ Once running, the system enters a continuous loop:
 - For each person found, it provides:
   - A bounding box (rectangle coordinates showing where the person is)
   - A confidence score (how sure it is that it's actually a person)
-
 **C. Optional Segmentation (SAM)**
 - If SAM is enabled and available:
   - For each person detected by YOLOv8, SAM creates a precise mask (outline)
